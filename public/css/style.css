@@ -8,6 +8,7 @@
     --neutral: #666565;
 
     --btn-carousel-size: 48px;
+    --footer-carousel-size : 10px
 }
 
 body {
@@ -16,12 +17,21 @@ body {
 
 .bg-primary {
     background-color: var(--primary-color) !important;
+    color: white !important
+    
 }
 
 .text-primary {
     color: var(--primary-color) !important;
 }
 
+.carousel-size{
+    size: var(--btn-carousel-size)!important
+}
+
+.btn-accent-color{
+    background-color : var(--accent-color) !important;
+}
 
 
 
@@ -56,4 +66,16 @@ body {
 
 .card-body-category p {
     color: var(--primary-color);
+}
+
+.form-work-w-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+
+
+.form-img{
+    size : var( --footer-carousel-size) !important
 }
