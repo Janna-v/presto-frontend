@@ -41,6 +41,8 @@ body {
     background-color: var(--white);
 }
 
+
+
 .card-body-category {
     display: flex;
     flex-direction: column;
@@ -50,6 +52,7 @@ body {
     border-radius: 12px;
     background-color: white;
 }
+
 
 .card-icon-category {
     display: flex;
@@ -64,8 +67,27 @@ body {
     color: var(--primary-color);
 }
 
+
 .card-body-category p {
     color: var(--primary-color);
+}
+
+.card-body-category:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    
+}
+
+.card-body-category p:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    
+}
+
+.card-icon-category:hover{
+     background-color: var(--white);
+    color: var(--primary-color);
+    
 }
 
 .form-work-w-us{

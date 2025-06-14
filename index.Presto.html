@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>HOME PRESTO.IT</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="/public/css/style.css">
@@ -25,10 +25,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active bg-primary rounded fs-6" aria-current="page" href="#">Home</a>
+            <a class="nav-link active bg-primary rounded fs-6" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="#">Annunci</a>
+            <a class="nav-link fs-6" href="/announcements.Presto.html">Annunci</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -95,7 +95,7 @@
         
         <div class="col-12 col-md-3">
           <div class="form-floating ">
-            <input type="text" class="form-control" id="formInput" placeholder="Cerca">
+            <input type="text" class="form-control" id="searchInput" placeholder="Cerca">
             <label for="floatingSearch">Cerca</label>
           </div>
         </div> 
@@ -141,20 +141,24 @@
       
       <!-- card --> 
       
-      <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-          <div class="card-category p-3">
-            <div class="card-body-category p-3">
-              <div class="card-icon-category mb-3">
-                <i class="bi bi-car-front-fill"></i> 
+      <div class="container ">
+        <div class="row g-4" id="categoriesRow">
+
+          <!-- <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card-category p-3">
+              <div class="card-body-category p-3">
+                <div class="card-icon-category mb-3">
+                   <i class="bi bi-car-front-fill"></i>
+                </div>
+                    <h3>Auto</h3>
+                    <p class="mb-0"> 123 Annunci</p>   
               </div>
-              <h3>Auto</h3>
-              <p class="mb-0">Annunci 123</p>
             </div>
-            
-          </div> 
-        </div>
+          </div> -->
+
         
+        <!-- questi div chiudono il container! -->
+        </div>
       </div>
       
     </section>
@@ -165,7 +169,7 @@
       
       <div class="row ">
         <div class="col-12  col-xl-6">
-
+          
           <img src="/public/img/workWithUs.jpg" class="d-block w-100 form-img img-fluid" alt="...">
         </div>
         <div class="col-12  col-xl-6">
@@ -189,18 +193,19 @@
           </form>
         </div>
       </div> 
-       
-        
       
+      
+      
+      
+      
+      
+      
+    </section>
     
     
-    
-    
-  </section>
+  </footer>
   
-  
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <script src="/public/js/index.Presto.js"></script>
 </body>
 </html>
