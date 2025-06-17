@@ -50,7 +50,7 @@
   <!-- form filter -->
   <main>
     <section class="container p-4 bg-primary">
-      <form class="row g-4">
+      <form class="row g-4" id="filterAndSortForm">
         
         <div class="col-12 col-md-6">
           <div class="form-floating ">
@@ -62,10 +62,10 @@
         <div class="col-12 col-md-6">
           <div class="form-floating ">
             <select class="form-select" id="categorySelect" aria-label="Floating label select example">
-              <option selected>Tutti gli annunci</option>
-              <option value="Elettronica">Elettronica</option>
+              <option selected value="">Tutti gli annunci</option>
+              <!-- <option value="Elettronica">Elettronica</option>
               <option value="Motori">Motori</option>
-              <option value="Sport">Sport</option>
+              <option value="Sport">Sport</option> -->
             </select>
             <label for="categorySelect">Filtra per categorie</label>
           </div>
@@ -111,19 +111,17 @@
     <!-- card -->
     <section class="container bg-white p-4 px-sm-0">
       <div class="container ">
-        <div class="row g-4" id="categoriesRow">
+        <div class="row g-4" id="announcementsRow">
           
           
-          <div class="col-12 col-md-6  col-xl-4">
+          <!-- <div class="col-12 col-md-6  col-xl-4">
             <article class="card shadow border-0">
              <div class="position-relative">
                 <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-                 <!-- <span class="badge bg-danger position-absolute top-0 end-0 py-2 px-3  text-uppercase">Sell</span> -->
+                 <span class="badge bg-danger position-absolute top-0 end-0 py-2 px-3  text-uppercase">Sell</span>
                   <span class="badge bg-primary position-absolute top-0 end-0 py-2 px-3  text-uppercase">Search</span>
               </div>
-             
-
-              <div class="card-body p-4">
+               <div class="card-body p-4">
                 <h3 class="card-subtitle text-primary h5 mb-2 fw-semibold "> £  120,00 </h3>
                 <h2 class="card-title mb-2 display-5">Huawei X5</h2>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -135,7 +133,7 @@
               </div>
             </article>
           </div>
-          
+           -->
           
           
           
