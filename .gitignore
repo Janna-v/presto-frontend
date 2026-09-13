@@ -1,0 +1,5 @@
+# Local editor settings and logs
+.vscode/
+.idea/
+*.log
+.DS_Store
